@@ -1,0 +1,24 @@
+{
+  "name": "@yunlong.syl/markdown-loader",
+  "version": "0.0.1",
+  "description": "自用的markdown-loader，主要在markdown-loader的基础上加了url decode 判断",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yunlong.syl",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.2.3",
+    "marked": "^0.8.0"
+  },
+  "files": [
+    ".gitignore",
+    "index.js",
+    "package.json",
+    "README.md"
+  ]
+}
